@@ -229,5 +229,12 @@
         "answer": "If the match is not right during the initial trial period, we help source a replacement so your team can keep moving."
       }
     ]
+  },
+  "finalCta": {
+    "heading": "Get matched with a remote staff member today.",
+    "description": "Stop struggling with local hiring and scale your business with the best offshore talent in the world.",
+    "action": {
+      "label": "Book a Call"
+    }
   }
 }

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import homePageContent from './content/home.json';
 import { CoreServices } from './features/home/sections/CoreServices';
 import { Faqs } from './features/home/sections/Faqs';
+import { FinalCta } from './features/home/sections/FinalCta';
 import { HomeHero } from './features/home/sections/HomeHero';
 import { HowItWorks } from './features/home/sections/HowItWorks';
 import { PopularRoles } from './features/home/sections/PopularRoles';
@@ -17,6 +18,7 @@ export default function HomePage() {
   const {
     coreServices,
     faqs,
+    finalCta,
     hero,
     howItWorks,
     popularRoles,
@@ -33,6 +35,7 @@ export default function HomePage() {
       <PopularRoles content={popularRoles} />
       <Testimonials content={testimonials} />
       <Faqs content={faqs} />
+      <FinalCta content={finalCta} />
     </main>
   );
 }

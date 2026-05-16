@@ -1,6 +1,7 @@
 import type {
   HomeCoreServicesContent,
   HomeFaqsContent,
+  HomeFinalCtaContent,
   HomeHeroContent,
   HomeHowItWorksContent,
   HomePopularRolesContent,
@@ -34,4 +35,8 @@ export type TestimonialsProps = {
 
 export type FaqsProps = {
   content: HomeFaqsContent;
+};
+
+export type FinalCtaProps = {
+  content: HomeFinalCtaContent;
 };

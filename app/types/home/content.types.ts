@@ -20,6 +20,7 @@ export type HomePageContent = {
   howItWorks: HomeHowItWorksContent;
   coreServices: HomeCoreServicesContent;
   faqs: HomeFaqsContent;
+  finalCta: HomeFinalCtaContent;
   popularRoles: HomePopularRolesContent;
   testimonials: HomeTestimonialsContent;
   whyChooseUs: HomeWhyChooseUsContent;
@@ -130,4 +131,12 @@ export type HomeFaqsContent = {
     answer: string;
     question: string;
   }[];
+};
+
+export type HomeFinalCtaContent = {
+  action: {
+    label: string;
+  };
+  description: string;
+  heading: string;
 };
