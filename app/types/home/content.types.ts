@@ -19,6 +19,7 @@ export type HomePageContent = {
   hero: HomeHeroContent;
   howItWorks: HomeHowItWorksContent;
   coreServices: HomeCoreServicesContent;
+  popularRoles: HomePopularRolesContent;
   whyChooseUs: HomeWhyChooseUsContent;
 };
 
@@ -85,6 +86,21 @@ export type HomeWhyChooseUsContent = {
   reasons: {
     description: string;
     icon: HomeWhyChooseUsIconName;
+    title: string;
+  }[];
+};
+
+export type HomePopularRolesContent = {
+  actionLabel: string;
+  description: string;
+  heading: string;
+  items: {
+    badge?: string;
+    description: string;
+    image: {
+      alt: string;
+      src: string;
+    };
     title: string;
   }[];
 };

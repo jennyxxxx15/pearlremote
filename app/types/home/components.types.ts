@@ -7,3 +7,14 @@ export type CoreServiceCardProps = {
   title: string;
   wide?: boolean;
 };
+
+export type PopularRoleCardProps = {
+  actionLabel: string;
+  badge?: string | undefined;
+  description: string;
+  image: {
+    alt: string;
+    src: string;
+  };
+  title: string;
+};

@@ -2,6 +2,7 @@ import type {
   HomeCoreServicesContent,
   HomeHeroContent,
   HomeHowItWorksContent,
+  HomePopularRolesContent,
   HomeWhyChooseUsContent,
 } from './content.types';
 
@@ -19,4 +20,8 @@ export type CoreServicesProps = {
 
 export type WhyChooseUsProps = {
   content: HomeWhyChooseUsContent;
+};
+
+export type PopularRolesProps = {
+  content: HomePopularRolesContent;
 };

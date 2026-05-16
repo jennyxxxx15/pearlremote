@@ -20,6 +20,7 @@
   --color-card-surface: #ffffff;
   --color-service-card-border: #cbc4d2;
   --color-service-card-featured: #ece6ee;
+  --color-popular-role-card-border: #cbc4d2;
   --color-divider: #cbc4d2;
   --color-step-icon-surface: #6750a4;
   --color-step-icon-foreground: #e0d2ff;
@@ -55,4 +56,13 @@ body {
 
 .divider {
   @apply bg-divider h-px w-full;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }

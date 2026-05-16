@@ -126,5 +126,45 @@
         "description": "If the talent isn't a perfect fit in the first 2 weeks, we replace them at no extra cost."
       }
     ]
+  },
+  "popularRoles": {
+    "heading": "Ready to Hire Popular Roles",
+    "description": "Immediate availability for our most requested positions.",
+    "actionLabel": "Hire This Role",
+    "items": [
+      {
+        "title": "Executive Assistant",
+        "description": "Email, scheduling, research, and travel booking expert.",
+        "badge": "TOP PICK",
+        "image": {
+          "src": "/images/popular-roles/executive-assistant.png",
+          "alt": "Executive assistant remote staff role"
+        }
+      },
+      {
+        "title": "CS Representative",
+        "description": "Zendesk, Intercom, and Freshdesk certified specialists.",
+        "image": {
+          "src": "/images/popular-roles/cs-representative.png",
+          "alt": "Customer support representative remote staff role"
+        }
+      },
+      {
+        "title": "Data Entry Clerk",
+        "description": "High-speed typing and extreme attention to detail for databases.",
+        "image": {
+          "src": "/images/popular-roles/data-entry.png",
+          "alt": "Data entry clerk remote staff role"
+        }
+      },
+      {
+        "title": "Shopify Assistant",
+        "description": "Product listing, inventory sync, and order processing.",
+        "image": {
+          "src": "/images/popular-roles/shopify-assistant.png",
+          "alt": "Shopify assistant remote staff role"
+        }
+      }
+    ]
   }
 }
