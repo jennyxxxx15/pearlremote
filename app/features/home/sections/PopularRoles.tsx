@@ -15,7 +15,7 @@ export function PopularRoles({ content }: PopularRolesProps) {
         {content.heading}
       </h2>
       <p className='text-center'>{content.description}</p>
-      <div className='mx-[-1.5rem] mt-10 scrollbar-none overflow-x-auto px-6 sm:mx-0 sm:overflow-visible sm:px-0 lg:mt-20'>
+      <div className='-mx-6 mt-10 scrollbar-none overflow-x-auto px-6 sm:mx-0 sm:overflow-visible sm:px-0 lg:mt-20'>
         <ol
           aria-label={content.heading}
           className='flex snap-x snap-mandatory items-stretch gap-6 after:block after:min-w-0.5 sm:grid sm:auto-rows-fr sm:grid-cols-2 sm:after:hidden lg:grid-cols-4'

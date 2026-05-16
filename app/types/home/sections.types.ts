@@ -3,6 +3,7 @@ import type {
   HomeHeroContent,
   HomeHowItWorksContent,
   HomePopularRolesContent,
+  HomeTestimonialsContent,
   HomeWhyChooseUsContent,
 } from './content.types';
 
@@ -24,4 +25,8 @@ export type WhyChooseUsProps = {
 
 export type PopularRolesProps = {
   content: HomePopularRolesContent;
+};
+
+export type TestimonialsProps = {
+  content: HomeTestimonialsContent;
 };

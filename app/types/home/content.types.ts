@@ -20,6 +20,7 @@ export type HomePageContent = {
   howItWorks: HomeHowItWorksContent;
   coreServices: HomeCoreServicesContent;
   popularRoles: HomePopularRolesContent;
+  testimonials: HomeTestimonialsContent;
   whyChooseUs: HomeWhyChooseUsContent;
 };
 
@@ -102,5 +103,22 @@ export type HomePopularRolesContent = {
       src: string;
     };
     title: string;
+  }[];
+};
+
+export type HomeTestimonialsContent = {
+  description: string;
+  heading: string;
+  items: {
+    author: {
+      image: {
+        alt: string;
+        src: string;
+      };
+      name: string;
+      role: string;
+    };
+    quote: string;
+    rating: number;
   }[];
 };

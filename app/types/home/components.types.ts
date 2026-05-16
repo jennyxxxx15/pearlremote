@@ -18,3 +18,16 @@ export type PopularRoleCardProps = {
   };
   title: string;
 };
+
+export type TestimonialCardProps = {
+  author: {
+    image: {
+      alt: string;
+      src: string;
+    };
+    name: string;
+    role: string;
+  };
+  quote: string;
+  rating: number;
+};
