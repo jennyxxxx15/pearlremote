@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import { Inter, Manrope } from 'next/font/google';
+import footerContent from './content/footer.json';
 import { Header } from './components/header/Header';
+import { Footer } from './components/footer/Footer';
 import './globals.css';
+import type { FooterContent } from './types/footer/content.types';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -14,6 +17,8 @@ const manrope = Manrope({
   subsets: ['latin'],
   display: 'swap',
 });
+
+const footer = footerContent as FooterContent;
 
 export const metadata: Metadata = {
   title: 'Pearl Remote',
@@ -33,6 +38,7 @@ export default function RootLayout({
       <body className='flex min-h-full flex-col'>
         <Header />
         {children}
+        <Footer content={footer} />
       </body>
     </html>
   );

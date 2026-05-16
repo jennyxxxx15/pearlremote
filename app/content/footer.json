@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "href": "/",
+    "label": "Pearl Remote",
+    "description": "Building global teams with the best Filipino talent since 2024."
+  },
+  "copyright": "© 2024 Pearl Remote. All rights reserved.",
+  "sections": [
+    {
+      "heading": "Company",
+      "links": [
+        {
+          "href": "/about",
+          "label": "About Us"
+        },
+        {
+          "href": "/how-it-works",
+          "label": "How It Works"
+        },
+        {
+          "href": "/services",
+          "label": "Services"
+        }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "links": [
+        {
+          "href": "/privacy-policy",
+          "label": "Privacy Policy"
+        },
+        {
+          "href": "/terms-of-service",
+          "label": "Terms of Service"
+        },
+        {
+          "href": "/contact",
+          "label": "Contact Us"
+        }
+      ]
+    }
+  ],
+  "social": {
+    "heading": "Connect",
+    "links": [
+      {
+        "href": "https://www.linkedin.com",
+        "icon": "linkedin",
+        "label": "LinkedIn"
+      },
+      {
+        "href": "https://www.instagram.com",
+        "icon": "instagram",
+        "label": "Instagram"
+      },
+      {
+        "href": "https://www.facebook.com",
+        "icon": "facebook",
+        "label": "Facebook"
+      }
+    ]
+  }
+}
