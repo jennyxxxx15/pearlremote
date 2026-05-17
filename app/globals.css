@@ -29,6 +29,14 @@
   --color-step-icon-surface: #6750a4;
   --color-step-icon-foreground: #e0d2ff;
   --color-step-number: #f2ecf4;
+  --color-how-it-works-highlight-primary: #6750a4;
+  --color-how-it-works-highlight-primary-copy: #e0d2ff;
+  --color-how-it-works-highlight-muted: #ece6ee;
+  --color-how-it-works-highlight-muted-copy: #494551;
+  --color-how-it-works-highlight-muted-heading: #1d1b20;
+  --color-how-it-works-highlight-dark: #322f35;
+  --color-how-it-works-highlight-dark-copy: #cbc4d2;
+  --color-how-it-works-highlight-dark-heading: #fdf7ff;
   --color-badge-foreground: #645a7d;
   --color-badge-surface: #e1d4fd;
   --color-button-black: #000000;

@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "How Hiring Remote Staff Works | Pearl Remote",
+    "description": "See Pearl Remote's six-step process for defining roles, matching vetted Filipino remote talent, interviewing candidates, onboarding staff, and receiving ongoing support."
+  },
+  "hero": {
+    "badge": "THE PROCESS",
+    "heading": "Your Roadmap to Global Talent",
+    "description": "We've refined our staffing workflow into six seamless steps, designed to minimize friction and maximize the quality of your new hire."
+  },
+  "highlights": {
+    "heading": "Built for faster, safer remote hiring",
+    "items": [
+      {
+        "title": "Fast Turnaround",
+        "description": "Our specialized sourcing engine reduces hiring time from months to mere days, keeping your projects on track.",
+        "backgroundImage": "/images/benefits/benefits.png",
+        "tone": "primary",
+        "width": "wide"
+      },
+      {
+        "title": "Compliance First",
+        "description": "We handle all international tax laws and labor regulations so you don't have to.",
+        "icon": "security",
+        "tone": "muted",
+        "width": "narrow"
+      },
+      {
+        "title": "Cost Efficiency",
+        "description": "Save up to 60% on labor costs without compromising on talent quality or productivity.",
+        "icon": "currency",
+        "tone": "muted",
+        "width": "narrow"
+      },
+      {
+        "title": "Scalable Infrastructure",
+        "description": "Easily add one specialist or an entire department. Our platform grows as your business needs evolve, providing a frictionless path to scale.",
+        "tone": "dark",
+        "width": "wide"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to find your next superstar?",
+    "description": "Book a free discovery call today and let's map out your remote team strategy together.",
+    "actions": {
+      "primary": {
+        "href": "/contact",
+        "label": "Book a Call"
+      },
+      "secondary": {
+        "href": "/services",
+        "label": "View Our Services"
+      }
+    }
+  },
+  "steps": [
+    {
+      "label": "Step 01",
+      "title": "Discovery Call",
+      "description": "A 30-minute consultation to understand your business goals, team culture, and the specific pain points you're looking to solve with remote talent.",
+      "icon": "phone",
+      "side": "left"
+    },
+    {
+      "label": "Step 02",
+      "title": "Role Requirement Review",
+      "description": "Our specialists help you define the exact technical stack, soft skills, and timezone requirements needed for the position to ensure a perfect fit.",
+      "icon": "check",
+      "side": "right"
+    },
+    {
+      "label": "Step 03",
+      "title": "Candidate Matching",
+      "description": "We leverage our global network to source and vet the top 1% of talent. You'll receive a curated shortlist of pre-screened professionals within 48-72 hours.",
+      "icon": "users",
+      "side": "left"
+    },
+    {
+      "label": "Step 04",
+      "title": "Interview or Approval",
+      "description": "You interview the final candidates yourself. Our team manages the scheduling and provides detailed feedback loops to help you make an informed decision.",
+      "icon": "message",
+      "side": "right"
+    },
+    {
+      "label": "Step 05",
+      "title": "Onboarding",
+      "description": "We handle all the legal, payroll, and compliance paperwork. We also assist with tool setup and initial integration to ensure your new staff member hits the ground running.",
+      "icon": "zap",
+      "side": "left"
+    },
+    {
+      "label": "Step 06",
+      "title": "Ongoing Support",
+      "description": "Our relationship doesn't end after onboarding. We provide dedicated account managers to handle ongoing payroll, performance reviews, and team scalability.",
+      "icon": "headphones",
+      "side": "right"
+    }
+  ]
+}
