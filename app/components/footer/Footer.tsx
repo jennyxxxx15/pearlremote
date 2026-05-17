@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa6';
 import { HeaderLogo } from '../header/HeaderLogo';
+import { FooterLink } from './FooterLink';
 import type { FooterProps } from '../../types/footer/components.types';
 
 const socialIcons = {
@@ -9,8 +10,6 @@ const socialIcons = {
   linkedin: FaLinkedinIn,
 };
 
-const footerLinkClassName =
-  'border-b border-current transition-colors duration-200 ease-out hover:text-primary focus-visible:ring-primary focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none';
 const footerSocialLinkClassName =
   'inline-flex transition-[color,transform] duration-200 ease-out hover:-translate-y-0.5 hover:text-primary focus-visible:ring-primary focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none';
 
@@ -29,9 +28,7 @@ export function Footer({ content }: FooterProps) {
             <ol className='mt-6 flex flex-col gap-4'>
               {section.links.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className={footerLinkClassName}>
-                    {link.label}
-                  </Link>
+                  <FooterLink href={link.href} label={link.label} />
                 </li>
               ))}
             </ol>
