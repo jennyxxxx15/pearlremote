@@ -20,7 +20,7 @@ export function FinalCta({ content }: FinalCtaProps) {
             {content.description}
           </p>
           <div className='text-center'>
-            <Button variant='white' className='shadow-xl!'>
+            <Button variant='white' className='w-full shadow-xl! sm:w-auto'>
               {content.action.label}
             </Button>
           </div>

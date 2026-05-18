@@ -49,6 +49,9 @@
   --color-about-edge-card-icon: #645a7d;
   --grid-template-columns-about-edge: minmax(0, 1fr) minmax(0, 0.5fr)
     minmax(0, 0.5fr);
+  --color-about-leadership-card-surface: #ffffff;
+  --color-about-leadership-image-surface: #ece6ee;
+  --color-about-leadership-role: #4f378a;
   --color-badge-foreground: #645a7d;
   --color-badge-surface: #e1d4fd;
   --color-button-black: #000000;

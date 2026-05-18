@@ -79,5 +79,50 @@
         "description": "Our hires stay longer because every placement is screened for role fit, culture fit, and growth potential."
       }
     ]
+  },
+  "leadership": {
+    "heading": "Meet Our Leadership",
+    "description": "Guided by decades of experience in international talent acquisition and business operations.",
+    "members": [
+      {
+        "name": "James Anderson",
+        "role": "Chief Executive Officer",
+        "image": {
+          "src": "/images/team/james-anderson.png",
+          "alt": "James Anderson, Chief Executive Officer at Pearl Remote"
+        }
+      },
+      {
+        "name": "Maria Santos",
+        "role": "Head of Operations, PH",
+        "image": {
+          "src": "/images/team/maria-santos.png",
+          "alt": "Maria Santos, Head of Operations in the Philippines at Pearl Remote"
+        }
+      },
+      {
+        "name": "Daniel Chen",
+        "role": "Strategic Partnerships",
+        "image": {
+          "src": "/images/team/daniel-chen.png",
+          "alt": "Daniel Chen, Strategic Partnerships leader at Pearl Remote"
+        }
+      },
+      {
+        "name": "Elena Rodriguez",
+        "role": "Director of Talent",
+        "image": {
+          "src": "/images/team/elena-rodriguez.png",
+          "alt": "Elena Rodriguez, Director of Talent at Pearl Remote"
+        }
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to bridge the talent gap?",
+    "description": "Book a discovery call today and learn how RemoteStaffCo can build your high-performing offshore team.",
+    "action": {
+      "label": "Book a Call"
+    }
   }
 }
