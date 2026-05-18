@@ -1,3 +1,20 @@
+import type { Metadata } from 'next';
+import servicesPageContent from '../content/services.json';
+import { ServicesOverview } from '../features/services/sections/ServicesOverview';
+import type { ServicesPageContent } from '../types/services/content.types';
+import { FinalCta } from '../features/home/sections/FinalCta';
+
+const servicesContent = servicesPageContent as ServicesPageContent;
+
+export const metadata: Metadata = servicesContent.seo;
+
 export default function ServicesPage() {
-  return <main className='flex flex-1' />;
+  const { hero, services, finalCta } = servicesContent;
+
+  return (
+    <main>
+      <ServicesOverview content={{ hero, services }} />
+      <FinalCta content={finalCta} />
+    </main>
+  );
 }

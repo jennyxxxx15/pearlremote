@@ -1,4 +1,4 @@
-import { ButtonLink } from '../ui/Button';
+import { ButtonLink } from '../ui/ButtonLink';
 import { TextLink } from '../ui/TextLink';
 
 type HeaderActionsProps = {

@@ -1,30 +1,31 @@
-import type { ButtonHTMLAttributes } from 'react';
+import Link from 'next/link';
+import type { ComponentProps, ReactNode } from 'react';
 import type { ButtonSize } from './button.styles';
 import type { ButtonVariant } from './button.styles';
 import { getButtonClassName } from './button.styles';
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+type ButtonLinkProps = Omit<ComponentProps<typeof Link>, 'className'> & {
+  children?: ReactNode;
+  className?: string;
   label?: string;
   size?: ButtonSize;
   variant?: ButtonVariant;
 };
 
-export function Button({
+export function ButtonLink({
   children,
   className = '',
   label,
   size = 'default',
   variant = 'black',
-  type = 'button',
-  ...buttonProps
-}: ButtonProps) {
+  ...linkProps
+}: ButtonLinkProps) {
   return (
-    <button
-      {...buttonProps}
-      type={type}
+    <Link
+      {...linkProps}
       className={getButtonClassName(variant, size, className)}
     >
       {children ?? label}
-    </button>
+    </Link>
   );
 }
