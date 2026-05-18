@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "About Pearl Remote | Elite Remote Staffing Experts",
+    "description": "Learn how Pearl Remote helps businesses build high-performing remote teams through precise talent placement, quality control, and long-term staffing support."
+  },
+  "hero": {
+    "badge": "Established Excellence",
+    "heading": "Redefining the standard of remote staffing.",
+    "description": "Pearl Remote is not just another agency. We are architects of global teams, specializing in connecting world-class enterprises with elite talent through high-precision placement and rigorous quality control.",
+    "stats": [
+      {
+        "label": "Years Experience",
+        "value": "10+"
+      },
+      {
+        "label": "Hires Made",
+        "value": "500+"
+      }
+    ],
+    "image": {
+      "src": "/images/banner/about.png",
+      "alt": "Pearl Remote staffing specialists collaborating on remote talent placement"
+    },
+    "mediaCard": {
+      "title": "Focused on Quality & Expertise"
+    }
+  },
+  "philippines": {
+    "heading": "Why The Philippines?",
+    "description": "A strategic hub for global communication and professional cultural alignment.",
+    "reasons": [
+      {
+        "icon": "language",
+        "title": "English Proficiency",
+        "description": "The Philippines ranks as one of the world's largest English-speaking nations, ensuring seamless integration into Western business workflows."
+      },
+      {
+        "icon": "handshake",
+        "title": "Cultural Synergy",
+        "description": "A unique history of Western influence results in shared values, professional work ethics, and a high level of customer service empathy."
+      },
+      {
+        "icon": "technology",
+        "title": "Tech-Ready Talent",
+        "description": "A robust education system produces thousands of graduates daily in IT, design, and administration, ready for global markets."
+      }
+    ]
+  }
+}
