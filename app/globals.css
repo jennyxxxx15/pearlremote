@@ -52,6 +52,16 @@
   --color-about-leadership-card-surface: #ffffff;
   --color-about-leadership-image-surface: #ece6ee;
   --color-about-leadership-role: #4f378a;
+  --color-contact-card-surface: #ffffff;
+  --color-contact-card-border: #cbc4d2;
+  --color-contact-input-surface: #ffffff;
+  --color-contact-input-border: #cbc4d2;
+  --color-contact-details-surface: #322f35;
+  --color-contact-details-copy: #fdf7ff;
+  --color-contact-details-muted: #cbc4d2;
+  --color-contact-details-divider: #645a7d;
+  --grid-template-columns-contact-inquiry: minmax(0, 1.35fr)
+    minmax(20rem, 0.65fr);
   --color-badge-foreground: #645a7d;
   --color-badge-surface: #e1d4fd;
   --color-button-black: #000000;

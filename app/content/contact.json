@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Contact Pearl Remote | Hire Remote Staff",
+    "description": "Contact Pearl Remote to book a strategy call, discuss your remote staffing needs, and start hiring vetted Filipino remote professionals."
+  },
+  "hero": {
+    "heading": "Secure your top-tier global talent today.",
+    "description": "Skip the recruitment headache. Book a strategy call with our experts or fill out the form below to start building your remote team."
+  },
+  "inquiry": {
+    "heading": "Tell us about your needs",
+    "description": "Share a few details about the roles you need to fill and our team will follow up with next steps.",
+    "submitLabel": "Send Inquiry",
+    "fields": [
+      {
+        "id": "full-name",
+        "label": "Full name",
+        "name": "fullName",
+        "placeholder": "Jane Smith",
+        "type": "text"
+      },
+      {
+        "id": "work-email",
+        "label": "Work email",
+        "name": "email",
+        "placeholder": "jane@company.com",
+        "type": "email"
+      },
+      {
+        "id": "company",
+        "label": "Company",
+        "name": "company",
+        "placeholder": "Company name",
+        "type": "text"
+      },
+      {
+        "id": "role-needed",
+        "label": "Role needed",
+        "name": "roleNeeded",
+        "placeholder": "Executive Assistant",
+        "type": "text"
+      },
+      {
+        "id": "message",
+        "label": "What do you need help with?",
+        "name": "message",
+        "placeholder": "Tell us about your hiring goals, timeline, and required skills.",
+        "type": "textarea"
+      }
+    ],
+    "details": {
+      "heading": "Prefer to talk first?",
+      "description": "Book a strategy call and we will walk through the roles, timeline, and matching process with you.",
+      "items": [
+        {
+          "label": "Response time",
+          "value": "Within 1 business day"
+        },
+        {
+          "label": "Hiring timeline",
+          "value": "Candidate matches in 3-7 days"
+        },
+        {
+          "label": "Best for",
+          "value": "Virtual assistants, support, admin, and operations roles"
+        }
+      ],
+      "testimonial": {
+        "quote": "The process was seamless. I didn't have to waste time interviewing dozens of candidates. They just sent the best ones.",
+        "author": "Mark Thompson",
+        "role": "Founder, CreativePulse",
+        "image": {
+          "src": "/images/testimonials/mark-thompson.png",
+          "alt": "Mark Thompson"
+        }
+      }
+    }
+  }
+}
