@@ -45,5 +45,39 @@
         "description": "A robust education system produces thousands of graduates daily in IT, design, and administration, ready for global markets."
       }
     ]
+  },
+  "edge": {
+    "heading": "The Pearl Remote Edge",
+    "description": "A remote staffing model built for precision hiring, smooth onboarding, and long-term performance.",
+    "featured": {
+      "title": "Precision Matching",
+      "description": "We use a proprietary 7-step vetting process to ensure your remote staff does not just fill a role, but strengthens your company culture from day one.",
+      "image": {
+        "src": "/images/overlay/edge.png",
+        "alt": "Pearl Remote precision matching process for vetted remote staff"
+      },
+      "proofPoints": [
+        "Cognitive Assessment",
+        "Technical Benchmarking",
+        "Soft Skills Evaluation"
+      ]
+    },
+    "items": [
+      {
+        "icon": "support",
+        "title": "Operational Support",
+        "description": "We handle payroll, compliance, and HR so you can focus on scaling with a staffing partner, not a middleman."
+      },
+      {
+        "icon": "speed",
+        "title": "Fast Integration",
+        "description": "Shortlist, interview, and hire qualified remote talent in 14 days or less."
+      },
+      {
+        "icon": "retention",
+        "title": "98% Retention",
+        "description": "Our hires stay longer because every placement is screened for role fit, culture fit, and growth potential."
+      }
+    ]
   }
 }

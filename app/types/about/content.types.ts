@@ -1,4 +1,5 @@
 export type AboutPageContent = {
+  edge: AboutEdgeContent;
   seo: {
     description: string;
     title: string;
@@ -32,6 +33,31 @@ export type AboutPhilippinesContent = {
   reasons: {
     description: string;
     icon: AboutPhilippinesIconName;
+    title: string;
+  }[];
+};
+
+export type AboutEdgeIconName =
+  | 'integration'
+  | 'retention'
+  | 'speed'
+  | 'support';
+
+export type AboutEdgeContent = {
+  description: string;
+  featured: {
+    description: string;
+    image: {
+      alt: string;
+      src: string;
+    };
+    proofPoints: string[];
+    title: string;
+  };
+  heading: string;
+  items: {
+    description: string;
+    icon: AboutEdgeIconName;
     title: string;
   }[];
 };

@@ -1,4 +1,5 @@
 import type {
+  AboutEdgeContent,
   AboutHeroContent,
   AboutPhilippinesContent,
 } from './content.types';
@@ -9,4 +10,8 @@ export type AboutHeroProps = {
 
 export type WhyPhilippinesProps = {
   content: AboutPhilippinesContent;
+};
+
+export type AboutEdgeProps = {
+  content: AboutEdgeContent;
 };

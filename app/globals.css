@@ -37,6 +37,18 @@
   --color-how-it-works-highlight-dark: #322f35;
   --color-how-it-works-highlight-dark-copy: #cbc4d2;
   --color-how-it-works-highlight-dark-heading: #fdf7ff;
+  --color-about-edge-featured-surface: #322f35;
+  --color-about-edge-featured-overlay: #1d1a22;
+  --color-about-edge-featured-copy: #f0eaf7;
+  --color-about-edge-proof-icon: #e9ddff;
+  --color-about-edge-support-surface: #6750a4;
+  --color-about-edge-support-copy: #f1e9ff;
+  --color-about-edge-support-icon: #e0d2ff;
+  --color-about-edge-card-surface: #e6e0e9;
+  --color-about-edge-card-foreground: #322f35;
+  --color-about-edge-card-icon: #645a7d;
+  --grid-template-columns-about-edge: minmax(0, 1fr) minmax(0, 0.5fr)
+    minmax(0, 0.5fr);
   --color-badge-foreground: #645a7d;
   --color-badge-surface: #e1d4fd;
   --color-button-black: #000000;
