@@ -1,5 +1,5 @@
 import { MotionSection } from '../../../components/layout/MotionSection';
-import { ButtonLink } from '../../../components/ui/Button';
+import { ButtonLink } from '../../../components/ui/ButtonLink';
 import type { HowItWorksCtaProps } from '../../../types/how-it-works/sections.types';
 
 export function HowItWorksCta({ content }: HowItWorksCtaProps) {

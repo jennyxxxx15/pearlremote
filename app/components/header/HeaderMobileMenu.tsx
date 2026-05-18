@@ -3,7 +3,7 @@
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { ButtonLink } from '../ui/Button';
+import { ButtonLink } from '../ui/ButtonLink';
 import { TextLink } from '../ui/TextLink';
 import { IoClose, IoMenu } from 'react-icons/io5';
 

@@ -1,0 +1,91 @@
+{
+  "seo": {
+    "title": "Remote Staffing Services | Pearl Remote",
+    "description": "Explore Pearl Remote's virtual assistant, customer support, e-commerce, social media, and back-office remote staffing services for modern businesses."
+  },
+  "hero": {
+    "heading": "Tailored Remote Solutions for Modern Business",
+    "description": "Scale your operations with vetted professionals across five core specialized domains. Precision staffing, designed for authority and efficiency."
+  },
+  "services": [
+    {
+      "badge": "Efficiency First",
+      "title": "Virtual Assistants",
+      "description": "Executive-level support designed to reclaim your time. Our VAs are trained in high-stakes environment management, ensuring your calendar, communications, and priorities remain perfectly aligned.",
+      "capabilities": [
+        "Calendar & Schedule Management",
+        "Inbox Zero Email Handling",
+        "Travel & Meeting Coordination"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Founders and Executives looking to offload administrative cognitive load."
+      },
+      "image": {
+        "src": "/images/services/virtual-assistant.png",
+        "alt": "Pearl Remote virtual assistant supporting executive scheduling and administration"
+      }
+    },
+    {
+      "badge": "24/7 Reliability",
+      "title": "Customer Support",
+      "description": "Build brand loyalty through world-class responsiveness. Our support specialists represent your voice with empathy and technical precision across all major platforms.",
+      "capabilities": [
+        "Multi-channel Ticket Resolution",
+        "Live Chat & Technical Troubleshooting",
+        "Refund & Escalation Management"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Growth-stage SaaS and service companies scaling their user base."
+      },
+      "image": {
+        "src": "/images/services/customer-support.png",
+        "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
+      }
+    },
+    {
+      "badge": "Scale Fast",
+      "title": "E-commerce Support",
+      "description": "Maximize your store's throughput. From inventory management to order processing, we handle the logistics of digital retail so you can focus on product strategy.",
+      "capabilities": [
+        "Product Listing & SEO Optimization",
+        "Inventory & Supplier Coordination",
+        "Order Fulfillment & Dispute Resolution"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Shopify and Amazon brands managing high volume seasonal peaks."
+      },
+      "image": {
+        "src": "/images/services/e-commerce-support.png",
+        "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
+      }
+    },
+    {
+      "badge": "Brand Voice",
+      "title": "Social Media Support",
+      "description": "Engage your community and protect your reputation. Our specialists handle the daily friction of social platforms, from community moderation to content scheduling.",
+      "capabilities": [
+        "Community Management & Engagement",
+        "Content Scheduling & Posting",
+        "Influencer Outreach & Coordination"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Brands looking to maintain a high-frequency, high-quality digital presence."
+      },
+      "image": {
+        "src": "/images/services/social-media-support.png",
+        "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
+      }
+    }
+  ],
+  "finalCta": {
+    "heading": "Ready to build your global team?",
+    "description": "We connect elite businesses with the world's top 1% of remote talent. Start your scaling journey today.",
+    "action": {
+      "label": "Hire Remote Staff"
+    }
+  }
+}
