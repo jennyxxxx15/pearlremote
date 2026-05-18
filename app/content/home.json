@@ -11,7 +11,7 @@
     },
     "description": "We help businesses find reliable virtual assistants, customer support agents, and back-office staff from the Philippines.",
     "image": {
-      "src": "/images/banner/banner.png",
+      "src": "/images/banner/banner.webp",
       "alt": "Pearl Remote Filipino remote staff recruitment and onboarding support"
     },
     "mediaCard": {
@@ -101,7 +101,7 @@
   "whyChooseUs": {
     "heading": "Why Global Leaders Choose RemoteStaffCo",
     "image": {
-      "src": "/images/banner/why-choose-us.png",
+      "src": "/images/banner/why-choose-us.webp",
       "alt": "Pearl Remote recruitment specialist reviewing remote staff candidates"
     },
     "reasons": [
@@ -137,7 +137,7 @@
         "description": "Email, scheduling, research, and travel booking expert.",
         "badge": "TOP PICK",
         "image": {
-          "src": "/images/popular-roles/executive-assistant.png",
+          "src": "/images/popular-roles/executive-assistant.webp",
           "alt": "Executive assistant remote staff role"
         }
       },
@@ -145,7 +145,7 @@
         "title": "CS Representative",
         "description": "Zendesk, Intercom, and Freshdesk certified specialists.",
         "image": {
-          "src": "/images/popular-roles/cs-representative.png",
+          "src": "/images/popular-roles/cs-representative.webp",
           "alt": "Customer support representative remote staff role"
         }
       },
@@ -153,7 +153,7 @@
         "title": "Data Entry Clerk",
         "description": "High-speed typing and extreme attention to detail for databases.",
         "image": {
-          "src": "/images/popular-roles/data-entry.png",
+          "src": "/images/popular-roles/data-entry.webp",
           "alt": "Data entry clerk remote staff role"
         }
       },
@@ -161,7 +161,7 @@
         "title": "Shopify Assistant",
         "description": "Product listing, inventory sync, and order processing.",
         "image": {
-          "src": "/images/popular-roles/shopify-assistant.png",
+          "src": "/images/popular-roles/shopify-assistant.webp",
           "alt": "Shopify assistant remote staff role"
         }
       }

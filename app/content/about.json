@@ -1,0 +1,128 @@
+{
+  "seo": {
+    "title": "About Pearl Remote | Elite Remote Staffing Experts",
+    "description": "Learn how Pearl Remote helps businesses build high-performing remote teams through precise talent placement, quality control, and long-term staffing support."
+  },
+  "hero": {
+    "badge": "Established Excellence",
+    "heading": "Redefining the standard of remote staffing.",
+    "description": "Pearl Remote is not just another agency. We are architects of global teams, specializing in connecting world-class enterprises with elite talent through high-precision placement and rigorous quality control.",
+    "stats": [
+      {
+        "label": "Years Experience",
+        "value": "10+"
+      },
+      {
+        "label": "Hires Made",
+        "value": "500+"
+      }
+    ],
+    "image": {
+      "src": "/images/banner/about.png",
+      "alt": "Pearl Remote staffing specialists collaborating on remote talent placement"
+    },
+    "mediaCard": {
+      "title": "Focused on Quality & Expertise"
+    }
+  },
+  "philippines": {
+    "heading": "Why The Philippines?",
+    "description": "A strategic hub for global communication and professional cultural alignment.",
+    "reasons": [
+      {
+        "icon": "language",
+        "title": "English Proficiency",
+        "description": "The Philippines ranks as one of the world's largest English-speaking nations, ensuring seamless integration into Western business workflows."
+      },
+      {
+        "icon": "handshake",
+        "title": "Cultural Synergy",
+        "description": "A unique history of Western influence results in shared values, professional work ethics, and a high level of customer service empathy."
+      },
+      {
+        "icon": "technology",
+        "title": "Tech-Ready Talent",
+        "description": "A robust education system produces thousands of graduates daily in IT, design, and administration, ready for global markets."
+      }
+    ]
+  },
+  "edge": {
+    "heading": "The Pearl Remote Edge",
+    "description": "A remote staffing model built for precision hiring, smooth onboarding, and long-term performance.",
+    "featured": {
+      "title": "Precision Matching",
+      "description": "We use a proprietary 7-step vetting process to ensure your remote staff does not just fill a role, but strengthens your company culture from day one.",
+      "image": {
+        "src": "/images/overlay/edge.png",
+        "alt": "Pearl Remote precision matching process for vetted remote staff"
+      },
+      "proofPoints": [
+        "Cognitive Assessment",
+        "Technical Benchmarking",
+        "Soft Skills Evaluation"
+      ]
+    },
+    "items": [
+      {
+        "icon": "support",
+        "title": "Operational Support",
+        "description": "We handle payroll, compliance, and HR so you can focus on scaling with a staffing partner, not a middleman."
+      },
+      {
+        "icon": "speed",
+        "title": "Fast Integration",
+        "description": "Shortlist, interview, and hire qualified remote talent in 14 days or less."
+      },
+      {
+        "icon": "retention",
+        "title": "98% Retention",
+        "description": "Our hires stay longer because every placement is screened for role fit, culture fit, and growth potential."
+      }
+    ]
+  },
+  "leadership": {
+    "heading": "Meet Our Leadership",
+    "description": "Guided by decades of experience in international talent acquisition and business operations.",
+    "members": [
+      {
+        "name": "James Anderson",
+        "role": "Chief Executive Officer",
+        "image": {
+          "src": "/images/team/james-anderson.png",
+          "alt": "James Anderson, Chief Executive Officer at Pearl Remote"
+        }
+      },
+      {
+        "name": "Maria Santos",
+        "role": "Head of Operations, PH",
+        "image": {
+          "src": "/images/team/maria-santos.png",
+          "alt": "Maria Santos, Head of Operations in the Philippines at Pearl Remote"
+        }
+      },
+      {
+        "name": "Daniel Chen",
+        "role": "Strategic Partnerships",
+        "image": {
+          "src": "/images/team/daniel-chen.png",
+          "alt": "Daniel Chen, Strategic Partnerships leader at Pearl Remote"
+        }
+      },
+      {
+        "name": "Elena Rodriguez",
+        "role": "Director of Talent",
+        "image": {
+          "src": "/images/team/elena-rodriguez.png",
+          "alt": "Elena Rodriguez, Director of Talent at Pearl Remote"
+        }
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to bridge the talent gap?",
+    "description": "Book a discovery call today and learn how RemoteStaffCo can build your high-performing offshore team.",
+    "action": {
+      "label": "Book a Call"
+    }
+  }
+}
