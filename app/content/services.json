@@ -22,7 +22,7 @@
         "description": "Founders and Executives looking to offload administrative cognitive load."
       },
       "image": {
-        "src": "/images/services/virtual-assistant.png",
+        "src": "/images/services/virtual-assistant.webp",
         "alt": "Pearl Remote virtual assistant supporting executive scheduling and administration"
       }
     },
@@ -40,7 +40,7 @@
         "description": "Growth-stage SaaS and service companies scaling their user base."
       },
       "image": {
-        "src": "/images/services/customer-support.png",
+        "src": "/images/services/customer-support.webp",
         "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
       }
     },
@@ -58,7 +58,7 @@
         "description": "Shopify and Amazon brands managing high volume seasonal peaks."
       },
       "image": {
-        "src": "/images/services/e-commerce-support.png",
+        "src": "/images/services/e-commerce-support.webp",
         "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
       }
     },
@@ -76,7 +76,7 @@
         "description": "Brands looking to maintain a high-frequency, high-quality digital presence."
       },
       "image": {
-        "src": "/images/services/social-media-support.png",
+        "src": "/images/services/social-media-support.webp",
         "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
       }
     }
