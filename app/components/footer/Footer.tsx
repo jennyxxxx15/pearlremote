@@ -18,7 +18,11 @@ export function Footer({ content }: FooterProps) {
     <footer className='bg-footer-surface'>
       <div className='container mx-auto grid gap-12 px-6 py-10 md:grid-cols-2 lg:grid-cols-4 lg:py-20'>
         <div>
-          <HeaderLogo href={content.brand.href} label={content.brand.label} />
+          <HeaderLogo
+            href={content.brand.href}
+            label={content.brand.label}
+            logoSrc='/images/logo.svg'
+          />
           <p className='mt-4 text-sm'>{content.brand.description}</p>
         </div>
 
