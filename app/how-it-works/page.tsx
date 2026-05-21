@@ -3,11 +3,15 @@ import howItWorksPageContent from '../content/how-it-works.json';
 import { HowItWorksCta } from '../features/how-it-works/sections/HowItWorksCta';
 import { HowItWorksHighlights } from '../features/how-it-works/sections/HowItWorksHighlights';
 import { HowItWorksProcess } from '../features/how-it-works/sections/HowItWorksProcess';
+import { getPageMetadata } from '../lib/seo';
 import type { HowItWorksPageContent } from '../types/how-it-works/content.types';
 
 const howItWorksContent = howItWorksPageContent as HowItWorksPageContent;
 
-export const metadata: Metadata = howItWorksContent.seo;
+export const metadata: Metadata = getPageMetadata(
+  howItWorksContent.seo,
+  '/how-it-works'
+);
 
 export default function HowItWorksPage() {
   const { cta, hero, highlights, steps } = howItWorksContent;

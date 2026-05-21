@@ -8,11 +8,12 @@ import { HowItWorks } from './features/home/sections/HowItWorks';
 import { PopularRoles } from './features/home/sections/PopularRoles';
 import { Testimonials } from './features/home/sections/Testimonials';
 import { WhyChooseUs } from './features/home/sections/WhyChooseUs';
+import { getPageMetadata } from './lib/seo';
 import type { HomePageContent } from './types/home/content.types';
 
 const homeContent = homePageContent as HomePageContent;
 
-export const metadata: Metadata = homeContent.seo;
+export const metadata: Metadata = getPageMetadata(homeContent.seo, '/');
 
 export default function HomePage() {
   const {

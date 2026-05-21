@@ -6,10 +6,11 @@ import { AboutLeadership } from '../features/about/sections/AboutLeadership';
 import { WhyPhilippines } from '../features/about/sections/WhyPhilippines';
 import type { AboutPageContent } from '../types/about/content.types';
 import { FinalCta } from '../features/home/sections/FinalCta';
+import { getPageMetadata } from '../lib/seo';
 
 const aboutContent = aboutPageContent as AboutPageContent;
 
-export const metadata: Metadata = aboutContent.seo;
+export const metadata: Metadata = getPageMetadata(aboutContent.seo, '/about');
 
 export default function AboutPage() {
   const { edge, hero, leadership, philippines, finalCta } = aboutContent;

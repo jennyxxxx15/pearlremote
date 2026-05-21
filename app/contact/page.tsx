@@ -2,11 +2,15 @@ import type { Metadata } from 'next';
 import contactPageContent from '../content/contact.json';
 import { ContactHero } from '../features/contact/sections/ContactHero';
 import { ContactInquiry } from '../features/contact/sections/ContactInquiry';
+import { getPageMetadata } from '../lib/seo';
 import type { ContactPageContent } from '../types/contact/content.types';
 
 const contactContent = contactPageContent as ContactPageContent;
 
-export const metadata: Metadata = contactContent.seo;
+export const metadata: Metadata = getPageMetadata(
+  contactContent.seo,
+  '/contact'
+);
 
 export default function ContactPage() {
   const { hero, inquiry } = contactContent;
