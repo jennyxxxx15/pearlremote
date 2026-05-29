@@ -6,6 +6,7 @@ import { FinalCta } from './features/home/sections/FinalCta';
 import { HomeHero } from './features/home/sections/HomeHero';
 import { HowItWorks } from './features/home/sections/HowItWorks';
 import { PopularRoles } from './features/home/sections/PopularRoles';
+import { Talent } from './features/home/sections/Talent';
 import { Testimonials } from './features/home/sections/Testimonials';
 import { WhyChooseUs } from './features/home/sections/WhyChooseUs';
 import { getPageMetadata } from './lib/seo';
@@ -23,6 +24,7 @@ export default function HomePage() {
     hero,
     howItWorks,
     popularRoles,
+    talent,
     testimonials,
     whyChooseUs,
   } = homeContent;
@@ -33,6 +35,7 @@ export default function HomePage() {
       <HowItWorks content={howItWorks} />
       <CoreServices content={coreServices} />
       <WhyChooseUs content={whyChooseUs} />
+      <Talent content={talent} />
       <PopularRoles content={popularRoles} />
       <Testimonials content={testimonials} />
       <Faqs content={faqs} />

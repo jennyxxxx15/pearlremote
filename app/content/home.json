@@ -127,6 +127,51 @@
       }
     ]
   },
+  "talent": {
+    "eyebrow": "FEATURED TALENT",
+    "heading": "Meet Our Talent",
+    "description": "Get a closer look at the remote professionals ready to support your team.",
+    "member": {
+      "name": "Mel",
+      "role": "Customer Service & Operations Specialist",
+      "summary": "Mel helps ecommerce and retail brands manage customer inquiries, returns, refunds, courier coordination, and backend operations with accuracy and care.",
+      "image": {
+        "src": "/images/team/mel.jpg",
+        "alt": "Mel, customer service and operations specialist"
+      },
+      "imageBadge": "Ecommerce Support VA",
+      "badges": [
+        "Ecommerce Support",
+        "Returns & Refunds",
+        "Logistics Admin",
+        "Available Full-Time"
+      ],
+      "skills": [
+        {
+          "title": "Customer Support",
+          "description": "Email, chat, inbound calls, and customer follow-ups across multiple channels."
+        },
+        {
+          "title": "Returns & Refunds",
+          "description": "Return tracking, refund workflows, replacements, and customer updates."
+        },
+        {
+          "title": "Logistics Admin",
+          "description": "Courier coordination, return labels, collections, and delivery issue claims."
+        }
+      ]
+    },
+    "actions": {
+      "primary": {
+        "href": "/contact",
+        "label": "Hire Mel"
+      },
+      "secondary": {
+        "href": "/contact",
+        "label": "View Profile"
+      }
+    }
+  },
   "popularRoles": {
     "heading": "Ready to Hire Popular Roles",
     "description": "Immediate availability for our most requested positions.",
