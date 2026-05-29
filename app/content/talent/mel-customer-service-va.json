@@ -1,0 +1,70 @@
+{
+  "seo": {
+    "title": "Hire Mel | Customer Service Virtual Assistant Philippines",
+    "description": "Hire Mel, a customer service and ecommerce operations VA from the Philippines. Skilled in customer inquiries, returns, refunds, courier coordination, and backend support."
+  },
+  "hero": {
+    "eyebrow": "CUSTOMER SERVICE VA",
+    "heading": "Hire Mel, Customer Service Virtual Assistant from the Philippines",
+    "description": "Mel helps ecommerce and retail brands manage customer inquiries, returns, refunds, courier coordination, and backend operations with accuracy and care.",
+    "image": {
+      "src": "/images/team/mel.jpg",
+      "alt": "Mel, customer service virtual assistant from the Philippines"
+    },
+    "badges": [
+      "Ecommerce Support",
+      "Returns & Refunds",
+      "Logistics Admin",
+      "Available Full-Time"
+    ],
+    "actions": {
+      "primary": {
+        "href": "/contact",
+        "label": "Hire Mel"
+      },
+      "secondary": {
+        "href": "/",
+        "label": "Back to Home"
+      }
+    }
+  },
+  "overview": {
+    "heading": "What Mel Can Help With",
+    "description": "A reliable support operator for teams that need customer conversations, order issues, and backend workflows handled with consistency.",
+    "items": [
+      {
+        "title": "Customer Support",
+        "description": "Email, chat, inbound calls, and customer follow-ups across multiple channels."
+      },
+      {
+        "title": "Returns & Refunds",
+        "description": "Return tracking, refund workflows, replacements, and customer updates."
+      },
+      {
+        "title": "Logistics Admin",
+        "description": "Courier coordination, return labels, collections, and delivery issue claims."
+      },
+      {
+        "title": "Backend Operations",
+        "description": "Master sheet updates, process tracking, and accurate admin support for ecommerce teams."
+      }
+    ]
+  },
+  "fit": {
+    "heading": "Best Fit For",
+    "items": [
+      "Ecommerce stores that need dependable customer support coverage.",
+      "Retail brands handling frequent return, refund, and replacement requests.",
+      "Operations teams that need courier follow-up and delivery issue coordination.",
+      "Founders who want a full-time customer service VA with strong admin discipline."
+    ]
+  },
+  "cta": {
+    "heading": "Ready to hire Mel?",
+    "description": "Book a call and we will confirm fit, availability, and next steps for bringing Mel into your customer support workflow.",
+    "action": {
+      "href": "/contact",
+      "label": "Hire Mel"
+    }
+  }
+}

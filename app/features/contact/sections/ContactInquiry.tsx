@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import { Button } from '../../../components/ui/Button';
 import { MotionSection } from '../../../components/layout/MotionSection';
 import type { ContactInquiryProps } from '../../../types/contact/sections.types';
 import { CalendlyInlineWidget } from '../components/CalendlyInlineWidget';
+import { ContactInquiryForm } from '../components/ContactInquiryForm';
 
 export function ContactInquiry({ content }: ContactInquiryProps) {
   const { description, details, fields, heading, submitLabel } = content;
@@ -31,44 +31,7 @@ export function ContactInquiry({ content }: ContactInquiryProps) {
               <p className='mt-3'>{description}</p>
             </div>
 
-            <form className='mt-8 grid gap-5 sm:grid-cols-2'>
-              {fields.map((field) => (
-                <div
-                  key={field.id}
-                  className={field.type === 'textarea' ? 'sm:col-span-2' : ''}
-                >
-                  <label
-                    htmlFor={field.id}
-                    className='text-heading mb-2 block text-sm font-semibold'
-                  >
-                    {field.label}
-                  </label>
-                  {field.type === 'textarea' ? (
-                    <textarea
-                      id={field.id}
-                      name={field.name}
-                      placeholder={field.placeholder}
-                      rows={6}
-                      className='border-contact-input-border bg-contact-input-surface focus:border-primary focus:ring-primary/20 min-h-40 w-full resize-y rounded-xl border px-4 py-3 transition-[border-color,box-shadow] outline-none focus:ring-4'
-                    />
-                  ) : (
-                    <input
-                      id={field.id}
-                      name={field.name}
-                      placeholder={field.placeholder}
-                      type={field.type}
-                      className='border-contact-input-border bg-contact-input-surface focus:border-primary focus:ring-primary/20 w-full rounded-xl border px-4 py-3 transition-[border-color,box-shadow] outline-none focus:ring-4'
-                    />
-                  )}
-                </div>
-              ))}
-
-              <div className='sm:col-span-2'>
-                <Button type='submit' className='w-full sm:w-auto'>
-                  {submitLabel}
-                </Button>
-              </div>
-            </form>
+            <ContactInquiryForm fields={fields} submitLabel={submitLabel} />
           </section>
         </div>
 

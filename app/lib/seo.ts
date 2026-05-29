@@ -20,6 +20,7 @@ export const routes = [
   { path: '/how-it-works', priority: 0.8 },
   { path: '/services', priority: 0.8 },
   { path: '/about', priority: 0.7 },
+  { path: '/talent/mel-customer-service-va', priority: 0.7 },
   { path: '/contact', priority: 0.7 },
 ] as const;
 
