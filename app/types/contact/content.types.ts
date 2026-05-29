@@ -14,6 +14,14 @@ export type ContactHeroContent = {
 
 export type ContactFieldType = 'email' | 'textarea' | 'text';
 
+export type ContactField = {
+  id: string;
+  label: string;
+  name: string;
+  placeholder: string;
+  type: ContactFieldType;
+};
+
 export type ContactInquiryContent = {
   description: string;
   details: {
@@ -33,13 +41,7 @@ export type ContactInquiryContent = {
       role: string;
     };
   };
-  fields: {
-    id: string;
-    label: string;
-    name: string;
-    placeholder: string;
-    type: ContactFieldType;
-  }[];
+  fields: ContactField[];
   heading: string;
   submitLabel: string;
 };

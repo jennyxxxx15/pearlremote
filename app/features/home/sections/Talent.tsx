@@ -11,9 +11,9 @@ export function Talent({ content }: TalentProps) {
       aria-labelledby='talent-title'
       className='container mx-auto px-6 py-10 lg:py-20'
     >
-      <div className='border-button-border bg-card-surface grid gap-8 rounded-4xl border p-5 shadow-sm sm:p-6 lg:grid-cols-[minmax(18rem,0.8fr)_minmax(0,1.2fr)] lg:items-center lg:gap-10 lg:p-8 xl:gap-12'>
+      <div className='bg-card-surface border-button-border grid gap-8 rounded-4xl border p-5 shadow-sm sm:p-6 lg:grid-cols-[minmax(18rem,0.8fr)_minmax(0,1.2fr)] lg:items-center lg:gap-10 lg:p-8 xl:gap-12'>
         <figure className='bg-about-leadership-image-surface relative overflow-hidden rounded-3xl'>
-          <div className='relative aspect-[4/5]'>
+          <div className='relative aspect-4/5'>
             <Image
               src={member.image.src}
               alt={member.image.alt}
@@ -71,7 +71,7 @@ export function Talent({ content }: TalentProps) {
             {member.skills.map((skill) => (
               <li
                 key={skill.title}
-                className='border-service-card-border bg-page-surface rounded-2xl border p-4'
+                className='bg-page-surface border-service-card-border rounded-2xl border p-4'
               >
                 <h4 className='text-heading font-bold'>{skill.title}</h4>
                 <p className='mt-2 text-sm leading-6'>{skill.description}</p>
