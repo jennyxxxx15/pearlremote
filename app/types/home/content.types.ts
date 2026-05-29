@@ -22,6 +22,7 @@ export type HomePageContent = {
   faqs: HomeFaqsContent;
   finalCta: HomeFinalCtaContent;
   popularRoles: HomePopularRolesContent;
+  talent: HomeTalentContent;
   testimonials: HomeTestimonialsContent;
   whyChooseUs: HomeWhyChooseUsContent;
 };
@@ -106,6 +107,37 @@ export type HomePopularRolesContent = {
     };
     title: string;
   }[];
+};
+
+export type HomeTalentContent = {
+  actions: {
+    primary: {
+      href: string;
+      label: string;
+    };
+    secondary: {
+      href: string;
+      label: string;
+    };
+  };
+  description: string;
+  eyebrow: string;
+  heading: string;
+  member: {
+    badges: string[];
+    imageBadge: string;
+    skills: {
+      description: string;
+      title: string;
+    }[];
+    image: {
+      alt: string;
+      src: string;
+    };
+    name: string;
+    role: string;
+    summary: string;
+  };
 };
 
 export type HomeTestimonialsContent = {
