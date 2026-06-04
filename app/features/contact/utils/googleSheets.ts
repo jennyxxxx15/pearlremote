@@ -63,23 +63,34 @@ function getGoogleSheetsConfig() {
   const {
     GOOGLE_SHEETS_CLIENT_EMAIL: clientEmail,
     GOOGLE_SHEETS_PRIVATE_KEY: rawPrivateKey,
+    GOOGLE_SHEETS_PRIVATE_KEY_BASE64: privateKeyBase64,
     GOOGLE_SHEETS_SHEET_NAME: sheetName = 'Sheet1',
     GOOGLE_SHEETS_SPREADSHEET_ID: spreadsheetId,
   } = process.env;
 
-  if (!clientEmail || !rawPrivateKey || !spreadsheetId) {
+  if (!clientEmail || (!rawPrivateKey && !privateKeyBase64) || !spreadsheetId) {
     throw new Error('Google Sheets environment variables are missing.');
   }
 
+  const privateKey = privateKeyBase64
+    ? Buffer.from(privateKeyBase64, 'base64').toString('utf8')
+    : (rawPrivateKey ?? '');
+  const normalizedPrivateKey = privateKey
+    .trim()
+    .replace(/^["']|["']$/g, '')
+    .replace(/\\n/g, '\n');
+
   if (
-    rawPrivateKey.includes('REPLACE_WITH_A_NEW_SERVICE_ACCOUNT_PRIVATE_KEY')
+    normalizedPrivateKey.includes(
+      'REPLACE_WITH_A_NEW_SERVICE_ACCOUNT_PRIVATE_KEY'
+    )
   ) {
     throw new Error('Google Sheets private key has not been configured.');
   }
 
   return {
     clientEmail,
-    privateKey: rawPrivateKey.replace(/\\n/g, '\n'),
+    privateKey: normalizedPrivateKey,
     sheetName,
     spreadsheetId,
   };
