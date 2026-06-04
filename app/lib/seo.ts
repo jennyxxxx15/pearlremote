@@ -22,6 +22,7 @@ export const routes = [
   { path: '/about', priority: 0.7 },
   { path: '/talent/mel-customer-service-va', priority: 0.7 },
   { path: '/contact', priority: 0.7 },
+  { path: '/privacy-policy', priority: 0.4 },
 ] as const;
 
 export function getAbsoluteUrl(path: string) {
