@@ -7,7 +7,6 @@ export type AboutPageContent = {
     title: string;
   };
   hero: AboutHeroContent;
-  leadership: AboutLeadershipContent;
   philippines: AboutPhilippinesContent;
   finalCta: HomeFinalCtaContent;
 };
@@ -63,18 +62,5 @@ export type AboutEdgeContent = {
     description: string;
     icon: AboutEdgeIconName;
     title: string;
-  }[];
-};
-
-export type AboutLeadershipContent = {
-  description: string;
-  heading: string;
-  members: {
-    image: {
-      alt: string;
-      src: string;
-    };
-    name: string;
-    role: string;
   }[];
 };

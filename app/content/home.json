@@ -71,65 +71,81 @@
     },
     "items": [
       {
-        "icon": "support",
-        "title": "Customer Support",
-        "description": "24/7 coverage for ticketing, live chat, and email support with excellent English proficiency.",
+        "icon": "admin",
+        "title": "Admin Support",
+        "description": "Virtual Assistant, Executive Assistant, Administrative Support, Data Entry, Email Management, Calendar Management, Customer Support, CRM Management.",
         "featured": true
       },
       {
-        "icon": "computer",
-        "title": "Virtual Assistants",
-        "description": "Calendar management, travel booking, and executive-level administrative tasks."
+        "icon": "legal",
+        "title": "Legal Support",
+        "description": "Legal Virtual Assistant, Legal Assistant, Paralegal Support, Contract Management, Legal Research, Document Preparation, Case Management, Compliance Support."
       },
       {
-        "icon": "admin",
-        "title": "Admin & Back-Office",
-        "description": "Data entry, invoicing, and complex document processing."
+        "icon": "finance",
+        "title": "Finance & Accounting",
+        "description": "Bookkeeping, Virtual Bookkeeper, Accounting Support, Accounts Payable, Accounts Receivable, Payroll Support, Bank Reconciliation, Financial Reporting."
       },
       {
-        "icon": "commerce",
-        "title": "E-commerce",
-        "description": "Shopify management, order fulfillment, and product listing."
+        "icon": "professional",
+        "title": "Professional Services",
+        "description": "HR Support, Recruitment Specialist, Talent Acquisition, Business Analyst, Project Coordinator, Operations Support, Consultant Support, Executive Support."
       },
       {
-        "icon": "social",
-        "title": "Social Media",
-        "description": "Content scheduling, community management, and engagement."
+        "icon": "healthcare",
+        "title": "Healthcare & Medical",
+        "description": "Medical Virtual Assistant, Medical Administrative Assistant, Medical Billing, Medical Coding, Patient Scheduling, Medical Records Management, Insurance Verification, Healthcare Administration."
       }
     ]
   },
   "whyChooseUs": {
-    "heading": "Why Global Leaders Choose RemoteStaffCo",
-    "image": {
-      "src": "/images/banner/why-choose-us.webp",
-      "alt": "Pearl Remote recruitment specialist reviewing remote staff candidates"
-    },
+    "heading": "Why Choose Pearl Remote?",
+    "description": [
+      "At Pearl Remote, we help businesses hire highly skilled virtual assistants and remote professionals while reducing hiring costs by up to 60% compared to traditional local recruitment.",
+      "From talent sourcing and recruitment to onboarding and ongoing support, we manage the entire hiring process to ensure every professional is set up for long-term success."
+    ],
     "reasons": [
       {
         "icon": "check",
-        "title": "Pre-vetted Top 3% Talent",
-        "description": "We only present candidates who pass our rigorous skills and communication assessments."
+        "title": "Comprehensive Screening",
+        "description": "Every team member goes through structured screening and skills assessments before being introduced."
       },
       {
         "icon": "speed",
-        "title": "Onboarding in Under a Week",
-        "description": "Our rapid matching process means your new hire starts contributing in days, not months."
-      },
-      {
-        "icon": "savings",
-        "title": "70% Cost Savings",
-        "description": "Access high-quality offshore talent at a fraction of local hiring costs."
+        "title": "Recruitment & Onboarding",
+        "description": "Dedicated recruitment and onboarding support helps every professional start with clarity."
       },
       {
         "icon": "shield",
-        "title": "Risk-Free Trial",
-        "description": "If the talent isn't a perfect fit in the first 2 weeks, we replace them at no extra cost."
+        "title": "KPI Tracking & Reviews",
+        "description": "Weekly KPI tracking and performance reviews keep progress visible and expectations aligned."
+      },
+      {
+        "icon": "check",
+        "title": "Regular Check-ins",
+        "description": "Regular client and talent check-ins help maintain communication, alignment, and retention."
+      },
+      {
+        "icon": "shield",
+        "title": "Account Management",
+        "description": "Dedicated account management and client support keep your engagement running smoothly."
+      },
+      {
+        "icon": "speed",
+        "title": "Continuous Coaching",
+        "description": "Productivity monitoring and continuous coaching help each professional improve over time."
+      },
+      {
+        "icon": "savings",
+        "title": "Fast Replacement Support",
+        "description": "When needs change or a fit is not right, we help source replacement talent quickly."
       }
-    ]
+    ],
+    "closing": "Whether you're hiring a Virtual Assistant, Executive Assistant, Customer Support Representative, Bookkeeper, Marketing Specialist, Healthcare VA, Legal Assistant, or building a complete remote team, Pearl Remote provides flexible, scalable staffing solutions designed to help your business grow."
   },
   "talent": {
     "eyebrow": "FEATURED TALENT",
-    "heading": "Meet Our Talent",
+    "heading": "Meet One of Our Talent",
     "description": "Get a closer look at the remote professionals ready to support your team.",
     "member": {
       "name": "Mel",
@@ -163,8 +179,8 @@
     },
     "actions": {
       "primary": {
-        "href": "/contact",
-        "label": "Hire Mel"
+        "href": "/contact#mel",
+        "label": "Schedule a Discovery Call"
       },
       "secondary": {
         "href": "/talent/mel-customer-service-va",
@@ -173,82 +189,85 @@
     }
   },
   "popularRoles": {
-    "heading": "Ready to Hire Popular Roles",
-    "description": "Immediate availability for our most requested positions.",
-    "actionLabel": "Hire This Role",
+    "heading": "Popular Remote Services",
+    "description": "Explore the remote support areas businesses most often hire through Pearl Remote.",
+    "actionLabel": "Hire This Service",
     "items": [
       {
-        "title": "Executive Assistant",
-        "description": "Email, scheduling, research, and travel booking expert.",
-        "badge": "TOP PICK",
+        "title": "Admin Support",
+        "description": "Reliable administrative professionals who keep calendars, inboxes, records, customers, and internal systems organized.",
+        "badge": "Operational Support",
         "image": {
-          "src": "/images/popular-roles/executive-assistant.webp",
-          "alt": "Executive assistant remote staff role"
+          "src": "/images/services/admin-support.webp",
+          "alt": "Pearl Remote admin support services"
         }
       },
       {
-        "title": "CS Representative",
-        "description": "Zendesk, Intercom, and Freshdesk certified specialists.",
+        "title": "Legal Support",
+        "description": "Remote legal support staff for research, case organization, document preparation, contract workflows, and compliance administration.",
+        "badge": "Document Ready",
         "image": {
-          "src": "/images/popular-roles/cs-representative.webp",
-          "alt": "Customer support representative remote staff role"
+          "src": "/images/services/legal-support.webp",
+          "alt": "Pearl Remote legal support services"
         }
       },
       {
-        "title": "Data Entry Clerk",
-        "description": "High-speed typing and extreme attention to detail for databases.",
+        "title": "Finance & Accounting",
+        "description": "Detail-oriented support for bookkeeping, receivables, payables, payroll administration, reconciliations, and financial reporting.",
+        "badge": "Financial Clarity",
         "image": {
-          "src": "/images/popular-roles/data-entry.webp",
-          "alt": "Data entry clerk remote staff role"
+          "src": "/images/services/finance-accounting.webp",
+          "alt": "Pearl Remote finance and accounting services"
         }
       },
       {
-        "title": "Shopify Assistant",
-        "description": "Product listing, inventory sync, and order processing.",
+        "title": "Professional Services",
+        "description": "Specialized remote professionals for HR, recruiting, project coordination, operations, analysis, and executive support.",
+        "badge": "Business Operations",
         "image": {
-          "src": "/images/popular-roles/shopify-assistant.webp",
-          "alt": "Shopify assistant remote staff role"
+          "src": "/images/services/professional-services.webp",
+          "alt": "Pearl Remote professional services"
         }
       }
     ]
   },
   "testimonials": {
     "heading": "Client Success Stories",
-    "description": "See how we've helped companies scale with the right remote talent.",
+    "description": "See how Pearl Remote helps companies build dependable remote teams.",
     "items": [
       {
-        "quote": "The quality of the VAs we received from RemoteStaffCo was night and day compared to other platforms. Highly recommended.",
+        "quote": "Pearl Remote understood the support we needed and introduced candidates who were prepared, professional, and easy to onboard.",
         "rating": 5,
         "author": {
           "name": "David Chen",
-          "role": "CEO, TechFlow Solutions",
+          "role": "CEO, Breda Watch",
           "image": {
-            "src": "/images/testimonials/david-chen.png",
-            "alt": "David Chen"
+            "src": "/images/testimonials/placeholder.svg",
+            "alt": ""
           }
         }
       },
       {
-        "quote": "We filled our entire CS team in just two weeks. The staff is professional, punctual, and highly skilled.",
+        "quote": "Pearl Remote helped us fill critical customer support roles quickly. The team members are reliable, responsive, and aligned with our workflows.",
         "rating": 5,
         "author": {
           "name": "Sarah Miller",
-          "role": "Operations Lead, Ecomly",
+          "role": "Operations Lead, Matel Realty",
           "image": {
-            "src": "/images/testimonials/sarah-miller.png",
-            "alt": "Sarah Miller"
+            "src": "/images/testimonials/placeholder.svg",
+            "alt": ""
           }
         }
       },
       {
-        "quote": "The process was seamless. I didn't have to waste time interviewing dozens of candidates. They just sent the best ones.",
+        "quote": "The hiring process with Pearl Remote was straightforward. We reviewed strong candidates from the start and found the right fit without wasting time.",
         "rating": 5,
         "author": {
-          "name": "Mark Thompson",
-          "role": "Founder, CreativePulse",
+          "name": "Sal Ijaz - CarBros",
+          "role": "Founder, BlankSpaceLabel",
           "image": {
-            "src": "/images/testimonials/mark-thompson.png",
-            "alt": "Mark Thompson"
+            "src": "/images/testimonials/placeholder.svg",
+            "alt": ""
           }
         }
       }

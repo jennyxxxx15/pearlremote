@@ -20,6 +20,7 @@ export function PopularRoleCard({
           alt={image.alt}
           sizes='(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw'
           className='mb-4 h-auto w-full rounded-2xl'
+          style={{ height: 'auto' }}
         />
         {badge ? (
           <Badge size='small' className='absolute top-2 right-2'>
@@ -31,7 +32,7 @@ export function PopularRoleCard({
       <div className='mb-2 flex items-center gap-2'>
         <h3 className='text-heading text-lg font-bold'>{title}</h3>
       </div>
-      <p className='mb-6'>{description}</p>
+      <p className='mb-6 line-clamp-3'>{description}</p>
       <Button className='mt-auto w-full'>{actionLabel}</Button>
     </li>
   );

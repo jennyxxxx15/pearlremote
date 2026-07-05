@@ -1,10 +1,11 @@
 import Link from 'next/link';
-import { HiMiniComputerDesktop } from 'react-icons/hi2';
-import { IoArrowForward, IoShareSocialOutline } from 'react-icons/io5';
+import { IoArrowForward } from 'react-icons/io5';
 import {
+  MdOutlineAccountBalance,
   MdOutlineAdminPanelSettings,
-  MdOutlineShoppingCart,
-  MdOutlineSupportAgent,
+  MdOutlineBusinessCenter,
+  MdOutlineGavel,
+  MdOutlineMedicalServices,
 } from 'react-icons/md';
 import { CoreServiceCard } from '../../../components/home/CoreServiceCard';
 import { MotionSection } from '../../../components/layout/MotionSection';
@@ -12,10 +13,10 @@ import type { CoreServicesProps } from '../../../types/home/sections.types';
 
 const coreServiceIcons = {
   admin: MdOutlineAdminPanelSettings,
-  commerce: MdOutlineShoppingCart,
-  computer: HiMiniComputerDesktop,
-  social: IoShareSocialOutline,
-  support: MdOutlineSupportAgent,
+  finance: MdOutlineAccountBalance,
+  healthcare: MdOutlineMedicalServices,
+  legal: MdOutlineGavel,
+  professional: MdOutlineBusinessCenter,
 };
 
 export function CoreServices({ content }: CoreServicesProps) {

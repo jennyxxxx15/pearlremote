@@ -31,15 +31,6 @@ export type ContactInquiryContent = {
       label: string;
       value: string;
     }[];
-    testimonial?: {
-      author: string;
-      image: {
-        alt: string;
-        src: string;
-      };
-      quote: string;
-      role: string;
-    };
   };
   fields: ContactField[];
   heading: string;

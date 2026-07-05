@@ -79,20 +79,13 @@ export function Talent({ content }: TalentProps) {
             ))}
           </ul>
 
-          <div className='mt-7 flex flex-col gap-3 sm:flex-row'>
+          <div className='mt-7'>
             <ButtonLink
               href={actions.primary.href}
-              className='w-full text-center sm:w-auto'
+              className='inline-flex w-full items-center justify-center text-center leading-snug sm:w-auto'
               variant='primary'
             >
               {actions.primary.label}
-            </ButtonLink>
-            <ButtonLink
-              href={actions.secondary.href}
-              className='w-full text-center sm:w-auto'
-              variant='white'
-            >
-              {actions.secondary.label}
             </ButtonLink>
           </div>
         </div>

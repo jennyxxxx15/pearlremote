@@ -1,10 +1,14 @@
-import Image from 'next/image';
 import { MotionSection } from '../../../components/layout/MotionSection';
 import type { ContactInquiryProps } from '../../../types/contact/sections.types';
 import { CalendlyInlineWidget } from '../components/CalendlyInlineWidget';
 import { ContactInquiryForm } from '../components/ContactInquiryForm';
+import { ContactTestimonial } from '../components/ContactTestimonial';
 
-export function ContactInquiry({ content }: ContactInquiryProps) {
+export function ContactInquiry({
+  content,
+  featuredTestimonial,
+  testimonials,
+}: ContactInquiryProps) {
   const { description, details, fields, heading, submitLabel } = content;
   const calendlyUrl = process.env.NEXT_PUBLIC_CALENDLY_URL;
 
@@ -62,29 +66,10 @@ export function ContactInquiry({ content }: ContactInquiryProps) {
             </dl>
           </aside>
 
-          {details.testimonial ? (
-            <figure className='border-contact-card-border bg-contact-card-surface rounded-2xl border p-6 shadow-sm lg:p-8'>
-              <blockquote className='text-heading font-display text-xl leading-snug font-semibold'>
-                &quot;{details.testimonial.quote}&quot;
-              </blockquote>
-              <figcaption className='border-contact-card-border mt-6 flex items-center gap-4 border-t pt-5'>
-                <Image
-                  src={details.testimonial.image.src}
-                  alt={details.testimonial.image.alt}
-                  width={48}
-                  height={48}
-                  sizes='48px'
-                  className='h-12 w-12 rounded-full object-cover'
-                />
-                <div>
-                  <p className='text-heading font-semibold'>
-                    {details.testimonial.author}
-                  </p>
-                  <p className='mt-1 text-sm'>{details.testimonial.role}</p>
-                </div>
-              </figcaption>
-            </figure>
-          ) : null}
+          <ContactTestimonial
+            featuredTestimonial={featuredTestimonial}
+            testimonials={testimonials}
+          />
         </div>
       </div>
     </MotionSection>

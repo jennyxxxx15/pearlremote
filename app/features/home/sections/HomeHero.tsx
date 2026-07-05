@@ -6,7 +6,7 @@ import { PiLightningBold } from 'react-icons/pi';
 import { TbUserSearch } from 'react-icons/tb';
 import { MotionSection } from '../../../components/layout/MotionSection';
 import { Badge } from '../../../components/ui/Badge';
-import { Button } from '../../../components/ui/Button';
+import { ButtonLink } from '../../../components/ui/ButtonLink';
 import type { HomeHeroProps } from '../../../types/home/sections.types';
 
 const benefitIcons = {
@@ -42,12 +42,20 @@ export function HomeHero({ content }: HomeHeroProps) {
         </h1>
         <p className='text-lg'>{content.description}</p>
         <div className='flex flex-col gap-2 sm:flex-row sm:gap-4'>
-          <Button variant='black' className='shadow-none!'>
+          <ButtonLink
+            href='/services'
+            variant='black'
+            className='text-center shadow-none!'
+          >
             {content.actions.primary.label}
-          </Button>
-          <Button variant='white' className='shadow-none!'>
+          </ButtonLink>
+          <ButtonLink
+            href='/contact'
+            variant='white'
+            className='text-center shadow-none!'
+          >
             {content.actions.secondary.label}
-          </Button>
+          </ButtonLink>
         </div>
         <div className='divider hidden lg:block' />
         <ol className='hidden items-center gap-6 text-xs font-semibold lg:flex'>
