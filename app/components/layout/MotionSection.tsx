@@ -17,7 +17,7 @@ export function MotionSection({
     <motion.section
       initial={{ opacity: 0, y: 32 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      viewport={{ amount: 0.2, once: true }}
+      viewport={{ amount: 0.01, once: true }}
       whileInView={{ opacity: 1, y: 0 }}
       {...sectionProps}
     >

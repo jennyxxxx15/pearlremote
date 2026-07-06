@@ -1,3 +1,4 @@
+import { PeekSlider } from '../../../components/home/PeekSlider';
 import { TestimonialCard } from '../../../components/home/TestimonialCard';
 import { MotionSection } from '../../../components/layout/MotionSection';
 import type { TestimonialsProps } from '../../../types/home/sections.types';
@@ -16,21 +17,21 @@ export function Testimonials({ content }: TestimonialsProps) {
           {content.heading}
         </h2>
         <p className='text-center'>{content.description}</p>
-        <div className='-mx-6 mt-10 scrollbar-none overflow-x-auto px-6 md:mx-0 md:overflow-visible md:px-0 lg:mt-20'>
-          <ol
-            aria-label={content.heading}
-            className='flex snap-x snap-mandatory items-stretch gap-6 after:block after:min-w-0.5 md:grid md:grid-cols-3 md:after:hidden'
-          >
-            {content.items.map((testimonial) => (
-              <TestimonialCard
-                key={testimonial.author.name}
-                author={testimonial.author}
-                quote={testimonial.quote}
-                rating={testimonial.rating}
-              />
-            ))}
-          </ol>
-        </div>
+        <PeekSlider
+          ariaLabel={content.heading}
+          breakpoint='md'
+          className='mt-10 lg:mt-20'
+          listClassName='md:grid md:grid-cols-3'
+        >
+          {content.items.map((testimonial) => (
+            <TestimonialCard
+              key={testimonial.author.name}
+              author={testimonial.author}
+              quote={testimonial.quote}
+              rating={testimonial.rating}
+            />
+          ))}
+        </PeekSlider>
       </div>
     </MotionSection>
   );

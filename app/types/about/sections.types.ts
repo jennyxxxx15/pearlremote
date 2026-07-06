@@ -1,7 +1,6 @@
 import type {
   AboutEdgeContent,
   AboutHeroContent,
-  AboutLeadershipContent,
   AboutPhilippinesContent,
 } from './content.types';
 
@@ -15,8 +14,4 @@ export type WhyPhilippinesProps = {
 
 export type AboutEdgeProps = {
   content: AboutEdgeContent;
-};
-
-export type AboutLeadershipProps = {
-  content: AboutLeadershipContent;
 };

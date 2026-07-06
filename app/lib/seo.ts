@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-const productionSiteUrl = 'http://pearlremote.com';
+const productionSiteUrl = 'https://pearlremote.com';
 
 export const siteConfig = {
   name: 'Pearl Remote',
