@@ -15,8 +15,8 @@ export function PopularRoleCard({
       <div className='relative'>
         <Image
           src={image.src}
-          width={256}
-          height={192}
+          width={520}
+          height={424}
           alt={image.alt}
           sizes='(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw'
           className='mb-4 h-auto w-full rounded-2xl'
