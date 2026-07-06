@@ -4,10 +4,10 @@ export type HomeProcessStepIconName = 'chat' | 'launch' | 'staff';
 
 export type HomeCoreServiceIconName =
   | 'admin'
-  | 'commerce'
-  | 'computer'
-  | 'social'
-  | 'support';
+  | 'finance'
+  | 'healthcare'
+  | 'legal'
+  | 'professional';
 
 export type HomeWhyChooseUsIconName = 'check' | 'savings' | 'shield' | 'speed';
 
@@ -82,11 +82,9 @@ export type HomeCoreServicesContent = {
 };
 
 export type HomeWhyChooseUsContent = {
+  closing: string;
+  description: string[];
   heading: string;
-  image: {
-    alt: string;
-    src: string;
-  };
   reasons: {
     description: string;
     icon: HomeWhyChooseUsIconName;

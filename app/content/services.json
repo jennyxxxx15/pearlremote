@@ -1,89 +1,197 @@
 {
   "seo": {
     "title": "Remote Staffing Services | Pearl Remote",
-    "description": "Explore Pearl Remote's virtual assistant, customer support, e-commerce, social media, and back-office remote staffing services for modern businesses."
+    "description": "Explore Pearl Remote's remote staffing services across admin, legal, finance, healthcare, creative, marketing, logistics, eCommerce, real estate, and professional support."
   },
   "hero": {
-    "heading": "Tailored Remote Solutions for Modern Business",
-    "description": "Scale your operations with vetted professionals across five core specialized domains. Precision staffing, designed for authority and efficiency."
+    "heading": "Remote Staff for the Work That Keeps Your Business Moving",
+    "description": "Build a flexible remote team across operations, administration, finance, marketing, healthcare, logistics, real estate, and more with vetted professionals matched to your workflow."
   },
   "services": [
     {
-      "badge": "Efficiency First",
-      "title": "Virtual Assistants",
-      "description": "Executive-level support designed to reclaim your time. Our VAs are trained in high-stakes environment management, ensuring your calendar, communications, and priorities remain perfectly aligned.",
+      "badge": "Operational Support",
+      "title": "Admin Support",
+      "description": "Reliable administrative professionals who keep calendars, inboxes, records, customers, and internal systems organized so your team can stay focused on higher-value work.",
       "capabilities": [
-        "Calendar & Schedule Management",
-        "Inbox Zero Email Handling",
-        "Travel & Meeting Coordination"
+        "Virtual Assistant & Executive Assistant",
+        "Data Entry, Email & Calendar Management",
+        "Customer Support & CRM Management"
       ],
       "bestFor": {
         "label": "BEST FOR",
-        "description": "Founders and Executives looking to offload administrative cognitive load."
+        "description": "Founders, executives, and growing teams that need dependable day-to-day administrative coverage."
       },
       "image": {
-        "src": "/images/services/virtual-assistant.webp",
-        "alt": "Pearl Remote virtual assistant supporting executive scheduling and administration"
+        "src": "/images/services/admin-support.webp",
+        "alt": "Pearl Remote admin support services"
       }
     },
     {
-      "badge": "24/7 Reliability",
-      "title": "Customer Support",
-      "description": "Build brand loyalty through world-class responsiveness. Our support specialists represent your voice with empathy and technical precision across all major platforms.",
+      "badge": "Document Ready",
+      "title": "Legal Support",
+      "description": "Remote legal support staff who assist with research, case organization, document preparation, contract workflows, and compliance administration under your direction.",
       "capabilities": [
-        "Multi-channel Ticket Resolution",
-        "Live Chat & Technical Troubleshooting",
-        "Refund & Escalation Management"
+        "Legal Virtual Assistant & Paralegal Support",
+        "Contract Management & Legal Research",
+        "Document Preparation, Case Management & Compliance Support"
       ],
       "bestFor": {
         "label": "BEST FOR",
-        "description": "Growth-stage SaaS and service companies scaling their user base."
+        "description": "Law firms, legal departments, and compliance-led teams that need organized support without expanding local headcount."
       },
       "image": {
-        "src": "/images/services/customer-support.webp",
-        "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
+        "src": "/images/services/legal-support.webp",
+        "alt": "Pearl Remote legal support services"
       }
     },
     {
-      "badge": "Scale Fast",
-      "title": "E-commerce Support",
-      "description": "Maximize your store's throughput. From inventory management to order processing, we handle the logistics of digital retail so you can focus on product strategy.",
+      "badge": "Financial Clarity",
+      "title": "Finance & Accounting",
+      "description": "Detail-oriented finance and accounting support for daily bookkeeping, receivables, payables, payroll administration, reconciliations, and recurring financial reporting.",
       "capabilities": [
-        "Product Listing & SEO Optimization",
-        "Inventory & Supplier Coordination",
-        "Order Fulfillment & Dispute Resolution"
+        "Bookkeeping, Virtual Bookkeeper & Accounting Support",
+        "Accounts Payable, Accounts Receivable & Payroll Support",
+        "Bank Reconciliation & Financial Reporting"
       ],
       "bestFor": {
         "label": "BEST FOR",
-        "description": "Shopify and Amazon brands managing high volume seasonal peaks."
+        "description": "Small businesses, agencies, and finance teams that need accurate back-office accounting support."
       },
       "image": {
-        "src": "/images/services/e-commerce-support.webp",
-        "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
+        "src": "/images/services/finance-accounting.webp",
+        "alt": "Pearl Remote finance and accounting services"
       }
     },
     {
-      "badge": "Brand Voice",
-      "title": "Social Media Support",
-      "description": "Engage your community and protect your reputation. Our specialists handle the daily friction of social platforms, from community moderation to content scheduling.",
+      "badge": "Business Operations",
+      "title": "Professional Services",
+      "description": "Specialized remote professionals who support HR, recruiting, project coordination, operations, analysis, consulting workflows, and executive-level business administration.",
       "capabilities": [
-        "Community Management & Engagement",
-        "Content Scheduling & Posting",
-        "Influencer Outreach & Coordination"
+        "HR Support, Recruitment Specialist & Talent Acquisition",
+        "Business Analyst, Project Coordinator & Operations Support",
+        "Consultant Support & Executive Support"
       ],
       "bestFor": {
         "label": "BEST FOR",
-        "description": "Brands looking to maintain a high-frequency, high-quality digital presence."
+        "description": "Service businesses and internal teams that need skilled support across people, projects, and operations."
       },
       "image": {
-        "src": "/images/services/social-media-support.webp",
-        "alt": "Pearl Remote customer support specialist handling multi-channel user requests"
+        "src": "/images/services/professional-services.webp",
+        "alt": "Pearl Remote professional services"
+      }
+    },
+    {
+      "badge": "Patient Operations",
+      "title": "Healthcare & Medical",
+      "description": "Healthcare administrative support for clinics, practices, and medical teams handling scheduling, billing workflows, coding support, records, insurance checks, and patient coordination.",
+      "capabilities": [
+        "Medical Virtual Assistant & Medical Administrative Assistant",
+        "Medical Billing, Medical Coding & Insurance Verification",
+        "Patient Scheduling, Records Management & Healthcare Administration"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Healthcare providers and medical offices that need organized administrative support for patient-facing operations."
+      },
+      "image": {
+        "src": "/images/services/healthcare-medical.webp",
+        "alt": "Pearl Remote healthcare and medical services"
+      }
+    },
+    {
+      "badge": "Design Production",
+      "title": "Creative & Design",
+      "description": "Creative remote talent for the visual assets your business needs every week, from social graphics and presentation design to video editing and brand-aligned production work.",
+      "capabilities": [
+        "Graphic Designer",
+        "Presentation Design",
+        "Video Editing & Social Media Design"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Marketing teams, founders, and agencies that need consistent creative output without slowing internal teams down."
+      },
+      "image": {
+        "src": "/images/services/creative-design.webp",
+        "alt": "Pearl Remote creative and design services"
+      }
+    },
+    {
+      "badge": "Growth Support",
+      "title": "Marketing",
+      "description": "Marketing support specialists who help manage digital campaigns, social channels, content operations, SEO tasks, email marketing, lead generation, and daily marketing administration.",
+      "capabilities": [
+        "Digital Marketing, Social Media Manager & SEO Specialist",
+        "Content Marketing & Email Marketing",
+        "Lead Generation & Marketing Assistant"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Businesses that need hands-on marketing execution across channels without hiring a full in-house team."
+      },
+      "image": {
+        "src": "/images/services/marketing.webp",
+        "alt": "Pearl Remote marketing services"
+      }
+    },
+    {
+      "badge": "Supply Chain Support",
+      "title": "Logistics",
+      "description": "Remote logistics staff who help coordinate shipments, track orders, manage inventory records, support dispatch, and keep warehouse and supply chain administration moving.",
+      "capabilities": [
+        "Logistics Support, Supply Chain Management & Freight Coordination",
+        "Shipment Tracking, Dispatch Support & Inventory Management",
+        "Order Processing & Warehouse Administration"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Logistics teams, distributors, and operations leaders that need reliable coordination support across moving parts."
+      },
+      "image": {
+        "src": "/images/services/logistics.webp",
+        "alt": "Pearl Remote logistics services"
+      }
+    },
+    {
+      "badge": "Store Operations",
+      "title": "Retail & eCommerce",
+      "description": "Remote retail and eCommerce assistants who support store operations, product listings, inventory updates, order fulfilment, marketplace administration, and customer service.",
+      "capabilities": [
+        "eCommerce Virtual Assistant, Shopify VA & Amazon VA",
+        "WooCommerce Support, Product Listing & Inventory Management",
+        "Order Fulfilment & Customer Service"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Online retailers and marketplace brands that need steady operational support across storefronts and customer workflows."
+      },
+      "image": {
+        "src": "/images/services/retail-ecommerce.webp",
+        "alt": "Pearl Remote retail and eCommerce services"
+      }
+    },
+    {
+      "badge": "Property Support",
+      "title": "Real Estate",
+      "description": "Real estate support professionals who assist with transactions, listings, property management, rental operations, CRM updates, lead generation, and client or tenant communication.",
+      "capabilities": [
+        "Real Estate Virtual Assistant, Transaction Coordinator & Property Management",
+        "Short Term Rental, Long Term Rental, Airbnb & VRBO Management",
+        "Lead Generation, CRM, MLS Listings, Tenant Communication & Appointment Setting"
+      ],
+      "bestFor": {
+        "label": "BEST FOR",
+        "description": "Agents, brokers, property managers, and rental operators that need responsive support across listings, leads, and operations."
+      },
+      "image": {
+        "src": "/images/services/real-estate.webp",
+        "alt": "Pearl Remote real estate services"
       }
     }
   ],
   "finalCta": {
-    "heading": "Ready to build your global team?",
-    "description": "We connect elite businesses with the world's top 1% of remote talent. Start your scaling journey today.",
+    "heading": "Ready to build the right remote team?",
+    "description": "Tell us the roles you need and we will help match you with vetted remote professionals who can support the work behind your growth.",
     "action": {
       "label": "Hire Remote Staff"
     }
